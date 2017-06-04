@@ -177,7 +177,7 @@
 
 	.menu {
 		float: right;
-		margin-top: 9px;
+		margin-top: 40px;
 	}
 
 	.menu-style-2 .menu {
@@ -315,7 +315,7 @@
 	.menu li.active > a,
 	.menu li.sfHover > a {
 		text-decoration: none;
-		color: #8589b5;
+		color: #2f6ca3;
 	}
 
 	.menu ul li > a:hover,
@@ -340,7 +340,7 @@
 	/* MENU STYLE 3 */
 	.menu-style-3 .menu-button {
 		float: right;
-		margin-top: 20px;
+		margin-top: 50px;
 		color: #fff;
 		font-size: 26px;
 		line-height: 26px;

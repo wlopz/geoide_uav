@@ -59,7 +59,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  color: #464646;
+  color: #ffffff;
   font-weight: 300;
 }
 
@@ -5603,7 +5603,7 @@ blockquote footer img {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background: #8589b5 no-repeat center center;
+  background: #2f6ca3 no-repeat center center;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
@@ -5651,7 +5651,7 @@ blockquote footer img {
 .tp-caption.title-white-bold {
   color: #fff;
   font: 700 72px/72px "Open Sans", sans-serif;
-  letter-spacing: 40px;
+  letter-spacing: 20px;
 }
 
 .tp-caption.title-white-light {
