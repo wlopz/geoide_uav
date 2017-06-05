@@ -47,7 +47,7 @@
  ***********************************************************************************/
 
 body {
-  font: 14px/27px "Open Sans", sans-serif;
+  font: 14px/27px "Exo", sans-serif;
   background-color: #fff;
   color: #8f8f8f;
 }
@@ -276,7 +276,7 @@ input[type="button"]:focus {
 
 /* TRANFORMATION CLASSES */
 .lead {
-  font: 24px/36px "Montserrat", sans-serif;
+  font: 24px/36px "Exo", sans-serif;
 }
 
 .text-italic {
@@ -449,7 +449,7 @@ input[type="button"]:focus {
 
 .headline p {
   margin-bottom: 0;
-  font: 13px/24px "Montserrat", sans-serif;
+  font: 13px/24px "Exo", sans-serif;
 }
 
 .title {
@@ -478,7 +478,7 @@ input[type="button"]:focus {
   border: none;
   border-radius: 0;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Exo", sans-serif;
   text-align: center;
 }
 
@@ -532,7 +532,7 @@ dl {
 .plus-list li:before {
   margin-right: 10px;
   color: #23527c;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Exo", sans-serif;
   font-weight: 700;
   content: "+";
 }
@@ -634,7 +634,7 @@ dl {
   border-radius: 20px;
   margin-bottom: 20px;
   margin-right: 15px;
-  font: 13px/24px "Montserrat", sans-serif;
+  font: 13px/24px "Exo", sans-serif;
   letter-spacing: 0.3px;
   text-transform: uppercase;
   -webkit-transition: all 0.25s;
@@ -949,7 +949,7 @@ dl {
 
 .image-box-2 .image-box-details h6 {
   margin-bottom: 15px;
-  font: 16px "Montserrat", sans-serif;
+  font: 16px "Exo", sans-serif;
   text-transform: uppercase;
 }
 
@@ -1024,7 +1024,7 @@ dl {
   margin-bottom: 0;
   color: #8589b5;
   opacity: 0;
-  font: 12px/16px "Montserrat", sans-serif;
+  font: 12px/16px "Exo", sans-serif;
   text-transform: uppercase;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
@@ -1059,7 +1059,7 @@ dl {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  font: 30px/48px "Montserrat", sans-serif;
+  font: 30px/48px "Exo", sans-serif;
 }
 
 .image-box-3 h4 a {
@@ -1353,7 +1353,7 @@ dl {
   margin-bottom: 15px;
   background-color: #8589b5;
   color: #fff;
-  font: 14px/27px "Montserrat", sans-serif;
+  font: 14px/27px "Exo", sans-serif;
   white-space: nowrap;
   text-overflow: ellipsis;
   -webkit-transform: translateZ(0);
@@ -1597,7 +1597,7 @@ dl {
 .discount small {
   display: block;
   color: #fff;
-  font: 400 14px/36px "Montserrat", sans-serif;
+  font: 400 14px/36px "Exo", sans-serif;
 }
 
 
@@ -1620,7 +1620,7 @@ dl {
   padding: 0;
   padding-bottom: 5px;
   background-color: transparent;
-  font: 14px/27px "Open Sans", sans-serif;
+  font: 14px/27px "Exo", sans-serif;
   font-weight: 400;
   text-transform: none;
 }
@@ -1667,7 +1667,7 @@ dl {
 .tabs.style-4 .nav-tabs > li > a {
   border-top: 5px solid transparent;
   background-color: transparent;
-  font: 300 13px "Open Sans", sans-serif;
+  font: 300 13px "Exo", sans-serif;
   text-transform: none;
 }
 
@@ -1710,7 +1710,7 @@ dl {
 .tabs.vertical-tabs .nav-tabs > li > a {
   border-top: 5px solid transparent;
   background-color: transparent;
-  font: 300 13px "Open Sans", sans-serif;
+  font: 300 13px "Exo", sans-serif;
   text-transform: none;
 }
 
@@ -2816,12 +2816,12 @@ dl {
 .progress-bar-title {
   margin-bottom: 15px;
   color: #464646;
-  font: 700 30px "Montserrat", sans-serif;
+  font: 700 30px "Exo", sans-serif;
 }
 
 .progress-bar-title small {
   display: block;
-  font: 300 14px "Open Sans", sans-serif;
+  font: 300 14px "Exo", sans-serif;
 }
 
 .progress-bar-title i {
@@ -2834,7 +2834,7 @@ dl {
   top: -38px;
   right: 0;
   color: #464646;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Exo", sans-serif;
 }
 
 /***********************************************************************************
@@ -2897,13 +2897,13 @@ dl {
 .comparison-bars .progress-bar-title-before h4 {
   display: inline-block;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Exo", sans-serif;
 }
 
 .comparison-bars .progress-bar-title-after h4 small,
 .comparison-bars .progress-bar-title-before h4 small {
   display: block;
-  font: 300 14px "Open Sans", sans-serif;
+  font: 300 14px "Exo", sans-serif;
 }
 
 .comparison-bars .progress {
@@ -2983,7 +2983,7 @@ dl {
 
 .odometer:after,
 .odometer:before {
-  font: 300 72px/72px "Open Sans", sans-serif;
+  font: 300 72px/72px "Exo", sans-serif;
   vertical-align: middle;
 }
 
@@ -3001,7 +3001,7 @@ dl {
 
 .odometer-digit {
   margin-top: 6px;
-  font: 300 72px/72px "Open Sans", sans-serif;
+  font: 300 72px/72px "Exo", sans-serif;
 }
 
 .odometer-formatting-mark {
@@ -3245,7 +3245,7 @@ dl {
 .process-steps .step i + h5,
 .process-steps .step img + h5 {
   margin-top: -50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Exo", sans-serif;
   line-height: 26px;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
@@ -3406,7 +3406,7 @@ dl {
 .horizontal-timeline .item h6 {
   margin-bottom: 20px;
   color: #8589b5;
-  font: 14px/27px "Montserrat", sans-serif;
+  font: 14px/27px "Exo", sans-serif;
 }
 
 .horizontal-timeline .owl-prev,
@@ -3473,7 +3473,7 @@ dl {
   position: relative;
   margin-bottom: 30px;
   color: #8589b5;
-  font: 16px "Montserrat", sans-serif;
+  font: 16px "Exo", sans-serif;
 }
 
 .vertical-timeline .period-details h6:before {
@@ -3668,11 +3668,11 @@ dl {
   padding: 20px;
   border: 1px solid #e1e1e1;
   background-color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Exo", sans-serif;
 }
 
 .beatpicker .button {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Exo", sans-serif;
 }
 
 .beatpicker .header {
@@ -3795,7 +3795,7 @@ blockquote footer img {
   display: inline-block;
   border-bottom: 1px solid #8589b5;
   margin: 0 auto 100px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Exo", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -3812,7 +3812,7 @@ blockquote footer img {
 }
 
 .testimonial h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Exo", sans-serif;
   text-transform: uppercase;
 }
 
@@ -3943,7 +3943,7 @@ blockquote footer img {
 .filter li a {
   display: inline-block;
   color: #8f8f8f;
-  font: 14px/27px "Montserrat", sans-serif;
+  font: 14px/27px "Exo", sans-serif;
   text-decoration: none;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
@@ -3994,7 +3994,7 @@ blockquote footer img {
   border: none;
   background-color: transparent;
   color: #464646;
-  font: 16px "Montserrat", sans-serif;
+  font: 16px "Exo", sans-serif;
   text-align: center;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
@@ -4153,8 +4153,12 @@ blockquote footer img {
   top: 0;
   bottom: 0;
   width: 50%;
-  background: no-repeat center center;
+  background: center center;
   background-size: cover;
+}
+
+#quienesSomosImage {
+  background: no-repeat center center;
 }
 
 .half-image-left {
@@ -4176,7 +4180,7 @@ blockquote footer img {
   left: 0;
   font-size: 20vw;
   line-height: 12vw;
-  color: #f3f4fe;
+  color: #23527c;
 }
 
 .section-title.vertical {
@@ -4809,7 +4813,7 @@ blockquote footer img {
 #section-36 .contact span {
   margin-right: 20px;
   color: #464646;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Exo", sans-serif;
   text-transform: uppercase;
 }
 
@@ -4912,7 +4916,7 @@ blockquote footer img {
   left: 75%;
   padding-left: 35px;
   color: #fff;
-  font-family: "Montserrat";
+  font-family: "Exo";
   letter-spacing: 35px;
   text-align: center;
   text-transform: uppercase;
@@ -5131,7 +5135,7 @@ blockquote footer img {
   top: 50%;
   left: 0;
   width: 100%;
-  font: 700 72px/72px "Montserrat", sans-serif;
+  font: 700 72px/72px "Exo", sans-serif;
   letter-spacing: 50px;
   text-transform: uppercase;
   text-align: center;
@@ -5650,49 +5654,49 @@ blockquote footer img {
 
 .tp-caption.title-white-bold {
   color: #fff;
-  font: 700 72px/72px "Open Sans", sans-serif;
+  font: 700 72px/72px "Exo", sans-serif;
   letter-spacing: 20px;
 }
 
 .tp-caption.title-white-light {
   color: #fff;
-  font: 300 72px/72px "Open Sans", sans-serif;
+  font: 300 72px/72px "Exo", sans-serif;
   letter-spacing: 30px;
 }
 
 .tp-caption.title-big {
   color: #0c0c0c;
-  font: 800 92px/92px "Open Sans", sans-serif;
+  font: 800 92px/92px "Exo", sans-serif;
 }
 
 .tp-caption.title-big-white {
   color: #fff;
-  font: 800 92px/92px "Open Sans", sans-serif;
+  font: 800 92px/92px "Exo", sans-serif;
   text-shadow: 4px 4px 79px rgba(0, 0, 0, 0.75);
 }
 
 .tp-caption.title-big-light-white {
   color: #fff;
-  font: 300 140px/140px "Open Sans", sans-serif;
+  font: 300 140px/140px "Exo", sans-serif;
   text-transform: uppercase;
 }
 
 .tp-caption.title-bigger-light-white {
   color: #fff;
-  font: 300 110px/110px "Open Sans", sans-serif;
+  font: 300 110px/110px "Exo", sans-serif;
   text-transform: uppercase;
 }
 
 .tp-caption.subtitle-white {
   color: #fff;
-  font: 30px/48px "Montserrat", sans-serif;
+  font: 30px/48px "Exo", sans-serif;
   letter-spacing: 15px;
   text-transform: uppercase;
 }
 
 .tp-caption.subtitle-big {
   color: #fff;
-  font: 800 36px/48px "Open Sans", sans-serif;
+  font: 800 36px/48px "Exo", sans-serif;
   letter-spacing: 5px;
   text-shadow: 4px 4px 79px rgba(0, 0, 0, 0.75);
 }
@@ -5735,7 +5739,7 @@ blockquote footer img {
 
 .tp-caption.icons {
   color: #8589b5;
-  font: 14px/27px "Montserrat", sans-serif;
+  font: 14px/27px "Exo", sans-serif;
   letter-spacing: 5px;
   text-align: center;
   text-transform: uppercase;
@@ -6029,7 +6033,7 @@ blockquote footer img {
 
 .widget-title {
   margin-bottom: 30px;
-  font: 400 13px/18px "Montserrat", sans-serif;
+  font: 400 13px/18px "Exo", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -6115,7 +6119,7 @@ blockquote footer img {
 
 .widget-categories ul li a strong {
   color: #464646;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Exo", sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
@@ -6228,7 +6232,7 @@ blockquote footer img {
 
 .widget-tags a {
   padding: 8px 15px;
-  font: 13px "Open Sans", sans-serif;
+  font: 13px "Exo", sans-serif;
   text-transform: none;
 }
 
@@ -6297,7 +6301,7 @@ blockquote footer img {
 
 .widget-recent-posts ul li .post-title {
   color: #464646;
-  font: 13px "Montserrat", sans-serif;
+  font: 13px "Exo", sans-serif;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
@@ -6371,7 +6375,7 @@ blockquote footer img {
   margin-bottom: 5px;
   margin-left: 80px;
   color: #8f8f8f;
-  font: 10px "Montserrat", sans-serif;
+  font: 10px "Exo", sans-serif;
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
@@ -6401,7 +6405,7 @@ blockquote footer img {
   padding-right: 10px;
   border-right: 1px solid #e1e1e1;
   color: #8589b5;
-  font: 36px/20px "Montserrat", sans-serif;
+  font: 36px/20px "Exo", sans-serif;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -6627,7 +6631,7 @@ blockquote footer img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background-color: #8589b5;
+  background-color: #23527c;
   color: #fff;
   font-size: 14px;
   line-height: 32px;

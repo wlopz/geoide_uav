@@ -18,9 +18,9 @@
  *	 - FOOTER MIDDLE
  *	 - FOOTER BOTTOM
  *  + PAGES
- *	 - HOME
- *	 - ABOUT
- *	 - SERVICES
+ *	 - INICIO
+ *	 - QUIENES SOMOS
+ *	 - SECTORES Y SERVICIOS
  *	 - PORTFOLIO
  *	 - BLOG
  *	 - CONTACT
@@ -115,6 +115,83 @@
 
 	}
 
+	/*==============================*/
+
+	#headerOtherPages {
+		z-index: 8020;
+		top: 0;
+		left: 0;
+		right: 0;
+		border-bottom: 1px solid #fff;
+		-webkit-transition: all 0.25s;
+		transition: all 0.25s;
+		background-color: #000000 !important;
+	}
+
+	#headerOtherPages .container-fluid {
+		padding: 0 30px;
+	}
+
+	.header-dark #headerOtherPages {
+		background-color: rgba(0, 0, 0, 0.8);
+		border-bottom: none;
+	}
+
+	.header-white #headerOtherPages {
+		background-color: #fff;
+		border-bottom: none;
+	}
+
+	.menu-style-2 #headerOtherPages {
+		border-bottom: none;
+	}
+
+	.menu-style-2 #headerOtherPages .container {
+		position: relative;
+	}
+
+	.menu-style-2 #headerOtherPages [class^="col-"] {
+		position: static;
+	}
+
+	.menu-style-3 #headerOtherPages {
+		border-bottom: none;
+	}
+
+	.header-style-2 #headerOtherPages [class^="col-"] {
+		position: static;
+	}
+
+	.header-style-2 #headerOtherPages {
+		border-bottom: none;
+	}
+
+	.header-style-2 #header-top {
+		border-bottom: 1px solid #fff;
+	}
+
+	@media (max-width: 991px) {
+
+		#headerOtherPages {
+			position: relative;
+			background-color: rgba(0, 0, 0, 0.85);
+			border-bottom: none;
+		}
+
+		.header-style-2 #headerOtherPages [class^="col-"] {
+			position: relative;
+		}
+
+		.header-style-2 .header-top {
+			border-bottom: none;
+		}
+
+		#headerOtherPages .container-fluid {
+			padding: 0 15px;
+		}
+
+	}
+
 /***********************************************************************************
  *	- LOGO
  ***********************************************************************************/
@@ -177,7 +254,7 @@
 
 	.menu {
 		float: right;
-		margin-top: 40px;
+		margin-top: 60px;
 	}
 
 	.menu-style-2 .menu {
@@ -200,7 +277,7 @@
 		position: relative;
 		padding: 10px 20px 19px 10px;
 		margin-right: 5px;
-		font-size: 16px;
+		font-size: 20px;
 		color: #fff;
 	}
 
@@ -275,7 +352,7 @@
 
 	.megamenu-container .section h6 {
 		margin: 10px 0;
-		font: 700 14px/27px "Montserrat", sans-serif;
+		font: 700 14px/27px "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -545,7 +622,7 @@
 		width: 42px;
 		height: 42px;
 		border-radius: 5px;
-		background-color: #8589b5;
+		background-color: #23527c;
 		color: #fff;
 		font-size: 24px;
 		line-height: 46px;
@@ -558,7 +635,7 @@
 		list-style: none;
 		display: none;
 		margin: 0;
-		background-color: #8589b5;
+		background-color: #23527c;
 		color: #fff;
 	}
 
@@ -827,7 +904,7 @@
 		padding: 5px 20px 7px 20px;
 		border-top: none;
 		margin-bottom: 0;
-		font: 15px "Open Sans", sans-serif;
+		font: 15px "Exo", sans-serif;
 		text-transform: none;
 	}
 
@@ -1037,7 +1114,7 @@
 		overflow: hidden;
 		padding: 200px 0 150px;
 		margin-bottom: 100px;
-		background: #8589b5 no-repeat center center;
+		background: #23527c no-repeat center center;
 		background-size: cover;
 		color: #fff;
 		text-align: center;
@@ -1496,8 +1573,12 @@
 
 
 /***********************************************************************************
- *	- ABOUT
+ *	- QUIENES SOMOS
  ***********************************************************************************/
+
+	#quienesSomosInfo {
+		background-color: rgb(35, 82, 124);
+	}
 
 	.about-me {
 		border-top: 3px solid #8589b5;
@@ -1544,7 +1625,7 @@
 	.about-me-details h6 {
 		margin-bottom: 0;
 		color: #8f8f8f;
-		font: 12px/24px "Montserrat", sans-serif;
+		font: 12px/24px "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -1552,7 +1633,7 @@
 		display: inline-block;
 		margin-top: 20px;
 		color: #8f8f8f;
-		font: 12px/16px "Montserrat", sans-serif;
+		font: 12px/16px "Exo", sans-serif;
 		text-decoration: none;
 		text-transform: uppercase;
 		-webkit-transition: all 0.25s;
@@ -1685,7 +1766,7 @@
 	.service-box-content > a {
 		display: inline-block;
 		color: #8f8f8f;
-		font: 12px/16px "Montserrat", sans-serif;
+		font: 12px/16px "Exo", sans-serif;
 		text-decoration: none;
 		text-transform: uppercase;
 		-webkit-transition: all 0.25s;
@@ -1751,7 +1832,7 @@
 	.service-box.style-1 .service-box-content h6 {
 		margin-bottom: 10px;
 		color: #8f8f8f;
-		font: 12px "Montserrat", sans-serif;
+		font: 12px "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -1760,7 +1841,7 @@
 		bottom: 55px;
 		left: 60px;
 		color: #8f8f8f;
-		font: 12px "Montserrat", sans-serif;
+		font: 12px "Exo", sans-serif;
 		text-transform: uppercase;
 		-webkit-transition: all 0.25s;
 				transition: all 0.25s;
@@ -1860,7 +1941,7 @@
 	}
 
 	.service-box.style-2 .service-box-content h6 {
-		font: 14px/27px "Montserrat", sans-serif;
+		font: 14px/27px "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -1877,7 +1958,7 @@
 	.service-box.style-3 h6 {
 		padding-top: 12px;
 		margin-bottom: 10px;
-		font: 14px/27px "Montserrat", sans-serif;
+		font: 14px/27px "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -1953,7 +2034,7 @@
 	.service-box.style-4 h6 {
 		padding-top: 5px;
 		margin-bottom: 20px;
-		font: 14px/27px "Montserrat", sans-serif;
+		font: 14px/27px "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -1999,7 +2080,7 @@
 	}
 
 	.service-box.style-5 .service-box-content h6 {
-		font: 14px/27px "Montserrat", sans-serif;
+		font: 14px/27px "Exo", sans-serif;
 		text-transform: uppercase;
 		-webkit-transition: all 0.25s;
 				transition: all 0.25s;
@@ -2115,7 +2196,7 @@
 	.service-box.style-7 .service-box-content h6 {
 		padding-top: 10px;
 		margin-bottom: 10px;
-		font: 14px/27px "Montserrat", sans-serif;
+		font: 14px/27px "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -2184,7 +2265,7 @@
 	}
 
 	.service-box.style-8 .service-box-content h6 {
-		font: 14px/27px "Montserrat", sans-serif;
+		font: 14px/27px "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -2249,7 +2330,7 @@
 
 	.service-box.style-9 .service-box-content h6 {
 		margin-bottom: 15px;
-		font: 14px/27px "Montserrat", sans-serif;
+		font: 14px/27px "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -2301,7 +2382,7 @@
 
 	.service-box.style-11 .service-box-content h6 {
 		color: #8589b5;
-		font: 14px/27px "Montserrat", sans-serif;
+		font: 14px/27px "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -2511,7 +2592,7 @@
 	}
 
 	.portfolio-item-description h5 {
-		font-family: "Montserrat", sans-serif;
+		font-family: "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -2578,7 +2659,7 @@
 	.portfolio-item.portfolio-classic .portfolio-item-description > a {
 		display: inline-block;
 		color: #8f8f8f;
-		font: 12px/16px "Montserrat", sans-serif;
+		font: 12px/16px "Exo", sans-serif;
 		text-decoration: none;
 		text-transform: uppercase;
 		-webkit-transition: all 0.25s;
@@ -2613,7 +2694,7 @@
 
 	/* PORTFOLIO NAVIGATION */
 	.portfolio-navigation {
-		font-family: "Montserrat", sans-serif;
+		font-family: "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -2717,7 +2798,7 @@
 		width: 90px;
 		padding: 17px 0 12px 0;
 		border-right: 1px solid #e1e1e1;
-		font: 36px/30px "Montserrat", sans-serif;
+		font: 36px/30px "Exo", sans-serif;
 		text-align: center;
 		text-transform: uppercase;
 		text-decoration: none;
@@ -2738,7 +2819,7 @@
 	.blog-article-subtitle {
 		display: inline-block;
 		margin-left: 40px;
-		font: 11px "Montserrat", sans-serif;
+		font: 11px "Exo", sans-serif;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		-webkit-transition: all 0.25s;
@@ -2805,7 +2886,7 @@
 	.blog-article-content > a {
 		display: inline-block;
 		color: #8f8f8f;
-		font: 12px/16px "Montserrat", sans-serif;
+		font: 12px/16px "Exo", sans-serif;
 		text-decoration: none;
 		text-transform: uppercase;
 		-webkit-transition: all 0.25s;
@@ -2869,7 +2950,7 @@
 
 	/* BLOG POST COMMENT */
 	.commentlist-title {
-		font-family: "Montserrat", sans-serif;
+		font-family: "Exo", sans-serif;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 	}
@@ -2952,7 +3033,7 @@
 
 	.reply a {
 		display: inline-block;
-		font-family: "Montserrat", sans-serif;
+		font-family: "Exo", sans-serif;
 		text-decoration: none;
 		-webkit-transition: all 0.25s;
 				transition: all 0.25s;
@@ -2975,7 +3056,7 @@
 
 	/* BLOG POST COMMENT FORM */
 	.commentform-title {
-		font-family: "Montserrat", sans-serif;
+		font-family: "Exo", sans-serif;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 	}
@@ -3205,7 +3286,7 @@
 	.contact-box h6 {
 		margin-bottom: 15px;
 		color: #8589b5;
-		font: 14px/27px "Montserrat", sans-serif;
+		font: 14px/27px "Exo", sans-serif;
 		text-transform: uppercase;
 	}
 
